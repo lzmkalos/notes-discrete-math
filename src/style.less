@@ -1,0 +1,77 @@
+/* CUSTOM CSS FOR NOTES => MARKDOWN PREVIEW ENHANCED EXTENSION ON VSCODE */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+
+.markdown-preview.markdown-preview {
+  font-family: "Crimson Pro";
+
+  .katex {
+    font-size: 1.1em;
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Signika Negative" !important;
+    color: #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-top: 30px;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  .header {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .header_dec {
+    font-size: 1em;
+    font-weight: normal;
+  }
+  
+  .header_txt {
+    font-family: "Signika Negative" !important;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  background-color: #FFF;
+  color: #2A2A2A;
+  text-align: justify;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .admonition {
+    box-shadow: none !important;
+    border-left: 0.4rem solid #203354 !important;
+    border-color: #203354 !important;
+    background-color: rgba(32, 51, 84, 0.05) !important;
+  }
+  .admonition>.admonition-title:before {
+    color: #203354 !important;
+  }
+  .admonition-title {
+    font-weight: 400 !important;
+  }
+
+  pre {
+    font-family: "CaskaydiaCove Nerd Font";
+  }
+}
